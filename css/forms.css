@@ -1,18 +1,18 @@
 form>div {
-  margin:1em; /*Top Right Bottom Left*/
+  margin:1em; 
 }
 
 
-/* keeps form from bunching up to left */
+/* keeps form from bunching up to left /
 @media all and (min-width:501px){
   div.wrapper form{
       margin-left:22.8px;
   }
 }
 
-/* start reCAPTCHA styles */
- 
-/* writes to small text above reCAPTCHA upon failure */
+/ start reCAPTCHA styles /
+
+/ writes to small text above reCAPTCHA upon failure /
 .dateFeedback{
   font-style:italic;
   font-size:70%;
@@ -47,3 +47,5 @@ padding: 0.2em 0.5em;
 border-left: 1px solid #ccc;
 border-right: 1px solid #ccc;
 }
+
+/ end reCAPTCHA styles */
