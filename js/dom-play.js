@@ -8,9 +8,7 @@ for(const mySpan of spans){
     highlightActor(mySpan.dataset.actor);
   });
 }
-
-
-function highlightActor(myActor){
+ function highlightActor(myActor){
 
   for(const mySpan of spans){
 
